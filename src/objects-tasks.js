@@ -364,8 +364,8 @@ const cssSelectorBuilder = {
 
   id(value) {
     return {
-      value
-    }
+      value,
+    };
   },
 
   class(/* value */) {
